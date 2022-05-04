@@ -1,0 +1,57 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.Header, .Foot-2 {
+  background-color: #1f2937;
+  color: white;
+
+  
+}
+.Header{
+  padding-left: 15%;
+ width: auto;
+ height: fit-content;
+
+
+  
+}
+
+.Hlogo, .Links {
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+  
+}
+
+.Links{
+  padding-left: 70%;
+  gap: 30px;
+  margin-top: -50px;
+  
+}
+.H2S1B{
+  margin-top: 7%;
+  align-items: center;
+}
+.SubHead1{
+  width: 500px;
+}
+.Bod{
+  background-color: lightgray;
+  display: flex;
+  width: 400px;
+  height: 200px;
+  margin-left: 55%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -110px;
+
+  
+}
+.Foot-2{
+  justify-content: center;
+  display: flex;
+}
